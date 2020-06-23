@@ -1,0 +1,22 @@
+[v-cloak]{
+    display: none;
+}
+
+.btn{
+    display: inline-block;
+    width: 120px;
+    color: #fff;
+    background-color: #39f;
+    border: 0 ;
+    padding: 6px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline:none;
+    position: relative;
+}
+
+.btn[disabled]{
+    background-color: gray;
+}
